@@ -66,6 +66,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="HelpFiles\CrewChiefHelp.mm" />
+    <None Include="HelpFiles\makeHtmls.bat" />
+    <None Include="HelpFiles\makeTexts.bat" />
+    <None Include="HelpFiles\menu.ht" />
+    <None Include="HelpFiles\menu.ml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,5 +84,47 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="HelpFiles\About_blurb.txt" />
+    <Content Include="HelpFiles\About_ChangeLog.txt" />
+    <Content Include="HelpFiles\About_Contact.txt" />
+    <Content Include="HelpFiles\About_Credits.txt" />
+    <Content Include="HelpFiles\About_Customising_NameRequests.txt" />
+    <Content Include="HelpFiles\About_Customising_PaceNotes.txt" />
+    <Content Include="HelpFiles\About_Customising_TrackLandmarks.txt" />
+    <Content Include="HelpFiles\About_Customising_VoicePacks.txt" />
+    <Content Include="HelpFiles\About_Updating.txt" />
+    <Content Include="HelpFiles\CommandMacros.txt" />
+    <Content Include="HelpFiles\GameSpecific_CommandLineSwitches.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_AssettoCorsa.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_AssettoCorsaCompetizione.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_Automobilista.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_Automobilista2.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_ProjectCars.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_ProjectCars2.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_rFactor.txt" />
+    <Content Include="HelpFiles\GameSpecific_ForEachGame_rFactor2.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_AssettoCorsa.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_AssettoCorsaCompetizione.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_Automobilista.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_Automobilista2.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_ProjectCars.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_ProjectCars2.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_rFactor.txt" />
+    <Content Include="HelpFiles\GettingStarted_GameSpecific_rFactor2.txt" />
+    <Content Include="HelpFiles\GettingStarted_General.txt" />
+    <Content Include="HelpFiles\Overlays.txt" />
+    <Content Include="HelpFiles\Properties_Profiles.txt" />
+    <Content Include="HelpFiles\Properties_Properties.txt" />
+    <Content Include="HelpFiles\styles.css" />
+    <Content Include="HelpFiles\Voice_Speech_DriverNames.txt" />
+    <Content Include="HelpFiles\Voice_Speech_PitExitPositionPrediction.txt" />
+    <Content Include="HelpFiles\Voice_Speech_Swearing.txt" />
+    <Content Include="HelpFiles\Voice_Speech_TextToSpeech.txt" />
+    <Content Include="HelpFiles\Voice_VoiceRecognition_FreeDictationChatMessages.txt" />
+    <Content Include="HelpFiles\Voice_VoiceRecognition_InstallationTraining.txt" />
+    <Content Include="HelpFiles\Voice_VoiceRecognition_VoiceCommands.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
