@@ -34,8 +34,11 @@ namespace Help
             //Uri uri = new Uri(@"c:\Users\tony_\source\repos\Help\GoogleNexusWebsiteMenu\index.html");
             //Uri uri = new Uri(@"d:\temp\Help\Google Nexus Website Menu.html");
             string p = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
+            this.Text = p;
             Uri uri = new Uri(p+@"\..\..\HelpFiles\About_blurb.html");
+            //Uri uri = new Uri(p + @"HelpFiles\About_blurb.html");
             webBrowser1.Navigate(uri);
+            //webBrowser1.DocumentText = "<html>hello <script>alert('hi');</script></html>";
             //webBrowser1.DocumentCompleted += WebBrowser1_DocumentCompleted;
         }
         private void WebBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
