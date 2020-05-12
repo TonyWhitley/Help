@@ -43,6 +43,9 @@
                 <li><a href="Voice_Speech_DriverNames.html"><span>Driver Names
                     </span></a></li>
                 <li class="last"><a href="Voice_Speech_Swearing.html"><span>Swearing</span></a></li>
+                <li class="last"><a href="Voice_Speech_TextToSpeech.html"><span>Text to speech</span></a></li>
+                <li class="last"><a href="Voice_Speech_PitExitPositionPrediction.html"><span>Pit exit position prediction</span></a></li>
+                <li class="last"><a href="Voice_Speech_PaceNotes.html"><span>Pace Notes</span></a></li>
               </ul>
             </li>
             <li class="has-sub"><a href="#"><span>Voice Recognition</span></a>
@@ -103,7 +106,6 @@
           <li class="has-sub-left"><a href="#"><span>Customising</span></a>
             <ul>
                 <li><a href="About_Customising_TrackLandmarks.html"><span>Track Landmarks</span></a></li>
-                <li><a href="About_Customising_PaceNotes.html"><span>Pace Notes</span></a></li>
                 <li><a href="About_Customising_VoicePacks.html"><span>Voice Packs</span></a></li>
                 <li><a href="About_Customising_NameRequests.html"><span>Name Requests</span></a></li>
             </ul>
@@ -143,7 +145,7 @@ In both cases as soon as an opponent sets a faster lap, the app will have up to 
 The main issue here is that CC is very sensitive to data synchronisation problems. The way CC is written, it expects a single 'frame' of game data to represent the game state at a single point in time. This isn't the case in ACC. The shared memory blocks (and maybe even the data fields within them) appear to update at different rates so the app sees at lot of stale data (e.g. the lap count increases by 1, but the data field containing the previous lap's lap time is still showing the old lap, or perhaps it's the other way round, it can vary). It's made much worse by the need to use data from the UDP broadcast stream to fill in the data missing from shared memory - race positions and stuff can also be badly out of sync. This is a real pain to work around and I've not been able to find an acceptable solution which doesn't require me to rip the app apart and put it back together. The differing behaviour of some data between online and offline races is also making things more difficult than they should be.<br>
 <br>
 <br>
-Detecting 'good' passes isn't really feasible. I've tried to limit the 'good pass' messages to overtakes that are reasonably 'secure', don't result in the other car slowing excessively, and don't involve the player going off-track. I can't, for example, tell the difference between a clean pass and a bump-and-run punt, so you might get congratulated for driving like a berk.<br>
+<b>Detecting 'good' passes</b> isn't really feasible. I've tried to limit the 'good pass' messages to overtakes that are reasonably 'secure', don't result in the other car slowing excessively, and don't involve the player going off-track. I can't, for example, tell the difference between a clean pass and a bump-and-run punt, so you might get congratulated for driving like a berk.<br>
 </div>
 </font>
 </body>

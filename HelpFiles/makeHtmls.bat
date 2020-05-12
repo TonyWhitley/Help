@@ -5,6 +5,7 @@ Voice_Speech_DriverNames
 Voice_Speech_Swearing
 Voice_Speech_TextToSpeech
 Voice_Speech_PitExitPositionPrediction
+Voice_Speech_PaceNotes
 Voice_VoiceRecognition_InstallationTraining
 Voice_VoiceRecognition_VoiceCommandsAll
 Voice_VoiceRecognition_VoiceCommandsGrouped
@@ -21,7 +22,6 @@ About_Updating
 About_Contact
 About_KnownIssues
 About_Customising_TrackLandmarks
-About_Customising_PaceNotes
 About_Customising_VoicePacks
 About_Customising_NameRequests
 About_Credits
