@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
   border: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
   width: auto;
 }
 #cssmenu ul,
