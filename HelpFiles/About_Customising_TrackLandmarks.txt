@@ -1,5 +1,4 @@
-Track Landmarks(corner mappings) recording.<br>
------------------<br>
+<h3>Track Landmarks (corner mappings) recording.</h3>
 Please, keep corner mappings tight (from turn-in point to corner exit). Do not include straights!<br>
 To get the best results, the begin-distance should be taken at your typical turn-in point and the end-distance taken at the point where your wheels are pretty much straight-ahead. For some corners this is easy and very clear, in others not so much so in those cases just use your best judgement.<br>
 <br>

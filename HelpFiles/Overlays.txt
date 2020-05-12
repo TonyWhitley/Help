@@ -7,9 +7,7 @@ Telemetry is available for the previous completed lap (excluding out laps), the 
 To get the maximum out of telemetry charts in iRacing, iRacing disk telemetry must be enabled in iRacing app.ini 'irsdkEnableDisk', and in Crew Chief properties 'Enable disk based telemetry for overlay'. Crew Chief can not access the disk based telemetry while its recording but once your get out of the car or stop the recording manually (Alt-L) Crew Chief will read and process the file and you can get access the data on the overlay.<br>
 <br>
 The charts can be zoomed in to show a particular sector, or zoomed and panned with voice commands.<br>
-<br>
-General overlay commands:<br>
-<br>
+<h3>General overlay commands:</h3>
 "hide overlay" / "close overlay""<br>
 "show overlay"<br>
 "show console"<br>
@@ -32,10 +30,7 @@ General overlay commands:<br>
 "Next lap" - show the next lap (when showing 'last lap' chart)<br>
 "Previous lap" - show the previous lap (when showing 'last lap' chart)<br>
 "Show last lap" - move back to the last lap (when showing 'last lap' chart)<br>
-<br>
-<br>
-Series specific overlay commands:<br>
-<br>
+<h3>Series specific overlay commands:</h3>
 "show me..." - add a series to the chart<br>
 "chart, remove..." - remove a series from the chart<br>
 "best lap..." - add player best lap to the chart<br>
