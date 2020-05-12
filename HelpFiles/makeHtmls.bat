@@ -19,11 +19,13 @@ Properties_Profiles
 About_blurb
 About_Updating
 About_Contact
+About_KnownIssues
 About_Customising_TrackLandmarks
 About_Customising_PaceNotes
 About_Customising_VoicePacks
 About_Customising_NameRequests
 About_Credits
+About_Donations
 About_ChangeLog
 ) do if '%%f' neq '' copy /b menu.ht+%%f.txt+menu.ml %%f.html
 
