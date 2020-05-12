@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -40,6 +41,19 @@ namespace Help
             webBrowser1.Navigate(uri);
             //webBrowser1.DocumentText = "<html>hello <script>alert('hi');</script></html>";
             //webBrowser1.DocumentCompleted += WebBrowser1_DocumentCompleted;
+            webBrowser1.Navigating += webBrowser1_Navigating;
+        }
+
+        public void webBrowser1_Navigating(object sender, WebBrowserNavigatingEventArgs e)
+        {
+            if (e.Url.Scheme != "file")
+            {
+                //cancel the current event
+                e.Cancel = true;
+
+                //this opens the URL in the user's default browser
+                Process.Start(e.Url.ToString());
+            }
         }
         private void WebBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
@@ -51,6 +65,16 @@ namespace Help
             var StylesheetContent = System.IO.File.ReadAllText(path);
             var style = webBrowser1.Document.GetElementsByTagName("style")[0];
             style.InnerText = style.InnerText + " " + StylesheetContent;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webBrowser1_DocumentCompleted_1(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
         }
 
         /*private void Form1_Load(object sender, EventArgs e)

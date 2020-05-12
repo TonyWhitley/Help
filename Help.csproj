@@ -119,7 +119,6 @@
     <Content Include="HelpFiles\About_Contact.txt" />
     <Content Include="HelpFiles\About_Credits.txt" />
     <Content Include="HelpFiles\About_Customising_NameRequests.txt" />
-    <Content Include="HelpFiles\About_Customising_PaceNotes.txt" />
     <Content Include="HelpFiles\About_Customising_TrackLandmarks.txt" />
     <Content Include="HelpFiles\About_Customising_VoicePacks.txt" />
     <Content Include="HelpFiles\About_Updating.txt" />
