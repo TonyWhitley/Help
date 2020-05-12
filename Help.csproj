@@ -152,7 +152,7 @@
     <Content Include="HelpFiles\Voice_Speech_TextToSpeech.txt" />
     <Content Include="HelpFiles\Voice_VoiceRecognition_FreeDictationChatMessages.txt" />
     <Content Include="HelpFiles\Voice_VoiceRecognition_InstallationTraining.txt" />
-    <Content Include="HelpFiles\Voice_VoiceRecognition_VoiceCommands.txt" />
+    <Content Include="HelpFiles\Voice_VoiceRecognition_VoiceCommandsAll.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

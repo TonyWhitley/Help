@@ -6,7 +6,9 @@ Voice_Speech_Swearing
 Voice_Speech_TextToSpeech
 Voice_Speech_PitExitPositionPrediction
 Voice_VoiceRecognition_InstallationTraining
-Voice_VoiceRecognition_VoiceCommands
+Voice_VoiceRecognition_VoiceCommandsAll
+Voice_VoiceRecognition_VoiceCommandsGrouped
+Voice_VoiceRecognition_VoiceCommandsCheatSheet
 Voice_VoiceRecognition_FreeDictationChatMessages
 Overlays
 CommandMacros
@@ -23,7 +25,7 @@ About_Customising_VoicePacks
 About_Customising_NameRequests
 About_Credits
 About_ChangeLog
-) do if '%%f' neq '' copy menu.ht+%%f.txt+menu.ml %%f.html
+) do if '%%f' neq '' copy /b menu.ht+%%f.txt+menu.ml %%f.html
 
 for %%f in (
 AssettoCorsa
@@ -35,8 +37,8 @@ ProjectCars2
 rFactor
 rFactor2
 ) do if '%%f' neq '' (
-copy menu.ht+GettingStarted_GameSpecific_%%f.txt+menu.ml GettingStarted_GameSpecific_%%f.html
-copy menu.ht+GameSpecific_ForEachGame_%%f.txt+menu.ml GameSpecific_ForEachGame_%%f.html
+copy /b menu.ht+GettingStarted_GameSpecific_%%f.txt+menu.ml GettingStarted_GameSpecific_%%f.html
+copy /b menu.ht+GameSpecific_ForEachGame_%%f.txt+menu.ml GameSpecific_ForEachGame_%%f.html
 
 )
 
