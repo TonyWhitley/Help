@@ -39,3 +39,7 @@ copy menu.ht+GettingStarted_GameSpecific_%%f.txt+menu.ml GettingStarted_GameSpec
 copy menu.ht+GameSpecific_ForEachGame_%%f.txt+menu.ml GameSpecific_ForEachGame_%%f.html
 
 )
+
+copy *.html ..\docs
+copy styles.css ..\docs
+copy CrewChiefHelp.jpg ..\docs

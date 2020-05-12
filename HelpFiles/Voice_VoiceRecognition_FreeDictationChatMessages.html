@@ -31,6 +31,8 @@
               <li><a href="GettingStarted_GameSpecific_rFactor2.html"><span>rFactor 2</span></a></li>
 
             </ul></li>
+                <li><a href="Voice_VoiceRecognition_InstallationTraining.html"><span>Voice Recognition Installing &amp; Training</span></a>
+                </li>
           </ul>
         </li>
         <li class="active has-sub"><a href="#"><span>Voice</span></a>
@@ -44,9 +46,9 @@
             </li>
             <li class="has-sub"><a href="#"><span>Voice Recognition</span></a>
               <ul>
-                <li><a href="#"><span>Installing &amp; Training</span></a>
+                <li><a href="Voice_VoiceRecognition_InstallationTraining.html"><span>Installing &amp; Training</span></a>
                 </li>
-                <li></li><a href="#"><span>Voice Commands</span></a></li>
+                <li></li><a href="Voice_VoiceRecognition_VoiceCommands.html"><span>Voice Commands</span></a></li>
                 
                 <li class="last"><a href="Voice_VoiceRecognition_FreeDictationChatMessages.html"><span>Free dictation chat
                       messages</span></a></li>
@@ -106,7 +108,12 @@
     <br>
 <font face="Lucida Sans Unicode">
 <div class="main">
- <br>
+(experimental, iRacing, pCars2 and R3E only)<br>
+<br>
+The app can attempt to recognise a chat message if it's using the Windows speech recognition engine (the one built into Windows that requires training). This feature can be enabled with the 'Enable free dictation chat messages' property. The app will expect the message to start with the 'Chat free dictation start word' property value (default is "chat"). If this feature is enabled and you make a voice command that starts with this word, the app will attempt to recognise all the speech input after this word. It will execute the "start chat macro" macro (presses the chat key - 't' or 'c' depending on the game), then it'll type the characters of the recognised speech, then execute the "end chat macro" macro (presses the 'enter' key).<br>
+<br>
+For example, if you make a voice command "chat, good luck everyone" the app will press the key to activate the in-game chat, type 'good luck everyone' and press end. If it works. Note that this is heavily dependent on the accuracy of the free dictation speech recogniser and is just as likely to type 'good book ever known' or other such nonsense. I *strongly* recommend going through the speech recognition training process fully before using this feature. It's also a good idea to test it with Notepad or another text editor running in the foreground first so you can see what it would actually be typing when you make a command. <br>
+<br>
 	</div>
         </font>
         </body>

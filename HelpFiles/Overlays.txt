@@ -75,4 +75,4 @@ The voice command fragments for each series are also in this json file. The voic
 <br>
 The overlay can also be controlled with the mouse. Enable the "Enable input" checkbox on the overlay to show controls for the various chart and overlay functions. The overlay can also be moved around by dragging the title bar when Enable input is checked.<br>
 <br>
-For Occulus users the overlay can be rendered as a separate application window, allowing it to be added to the VR world - enable the 'Enable overlay app window (Oculus mode)' checkbox in the Properties screen. <br>
+For Oculus users the overlay can be rendered as a separate application window, allowing it to be added to the VR world - enable the 'Enable overlay app window (Oculus mode)' checkbox in the Properties screen. <br>
