@@ -6,6 +6,7 @@ this will make RaceRoom the selected game in the Crew Chief.<br>
 Supported values:<br>
 RACE_ROOM, PCARS2, PCARS_64BIT, PCARS_32BIT, PCARS_NETWORK, PCARS2_NETWORK, RF1, ASSETTO_64BIT, ASSETTO_32BIT, RF2, RF2_64BIT, IRACING, F1_2018, F1_2019, ACC, AMS2, AMS2_NETWORK, AMS, FTRUCK, MARCAS, GSC<br>
 <br>
+This can be used in conjunction with the launch_pcars / launch_raceroom / [game]_launch_exe / [game]_launch_params and run_immediately options to set crew chief up to start the game selected in the app launch argument, and start its own process.<br>
 <br>
 <b>-profile [file name]</b>- You can specify name of the profile to run at CC startup<br>
 <br>
