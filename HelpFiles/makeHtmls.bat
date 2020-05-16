@@ -1,18 +1,19 @@
 for %%f in (
 GettingStarted_General
+GettingStarted_nAudio
 GettingStarted_GameSpecific
-Voice_Speech_DriverNames
-Voice_Speech_Swearing
-Voice_Speech_TextToSpeech
-Voice_Speech_PitExitPositionPrediction
-Voice_Speech_PaceNotes
-Voice_VoiceRecognition_InstallationTraining
-Voice_VoiceRecognition_VoiceCommandsAll
-Voice_VoiceRecognition_VoiceCommandsGrouped
-Voice_VoiceRecognition_VoiceCommandsCheatSheet
-Voice_VoiceRecognition_FreeDictationChatMessages
+Speech_DriverNames
+Speech_Swearing
+Speech_TextToSpeech
+Speech_PitExitPositionPrediction
+Speech_PaceNotes
+VoiceRecognition_InstallationTraining
+VoiceRecognition_VoiceCommandsAll
+VoiceRecognition_VoiceCommandsGrouped
+VoiceRecognition_VoiceCommandsCheatSheet
+VoiceRecognition_FreeDictationChatMessages
+VoiceRecognition_CommandMacros
 Overlays
-CommandMacros
 GameSpecific_ForEachGame
 GameSpecific_CommandLineSwitches
 Properties_Properties
@@ -32,8 +33,6 @@ About_ChangeLog
 for %%f in (
 AssettoCorsa
 AssettoCorsaCompetizione
-Automobilista
-Automobilista2
 ProjectCars
 ProjectCars2
 rFactor

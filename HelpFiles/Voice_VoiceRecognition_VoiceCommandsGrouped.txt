@@ -20,23 +20,23 @@ Tell me the gaps <br>
 &nbsp;&nbsp;&nbsp;Give me the gaps <br>
 &nbsp;&nbsp;&nbsp;Tell me the deltas <br>
 &nbsp;&nbsp;&nbsp;Give me the deltas <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# switch on 'deltas' mode where the time deltas in front and behind get read out on each lap. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Note that these messages will play even if you have disabled messages<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>switch on 'deltas' mode where the time deltas in front and behind get read out on each lap. </i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Note that these messages will play even if you have disabled messages</i><br>
 Don't tell me the gaps <br>
 &nbsp;&nbsp;&nbsp;Don't tell me the deltas <br>
 &nbsp;&nbsp;&nbsp;No more gaps <br>
 &nbsp;&nbsp;&nbsp;No more deltas<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# switch off deltas mode<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>switch off deltas mode</i><br>
 <h4>Racecraft</h4>
 Where should I attack <br>
 &nbsp;&nbsp;&nbsp;Where am I faster <br>
 &nbsp;&nbsp;&nbsp;Where can I attack<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# If the app has enough data, will report the corner name where you're gaining the most time on the guy in front<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>If the app has enough data, will report the corner name where you're gaining the most time on the guy in front</i><br>
 Where should I defend <br>
 &nbsp;&nbsp;&nbsp;Where am I slower <br>
 &nbsp;&nbsp;&nbsp;Where is he faster <br>
 &nbsp;&nbsp;&nbsp;Where will he attack<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# If the app has enough data, will report the corner name where you're losing the most time to the guy behind<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>If the app has enough data, will report the corner name where you're losing the most time to the guy behind</i><br>
 <h4>Classes</h4>
 Is the car ahead in my class <br>
 &nbsp;&nbsp;&nbsp;Is the car ahead my class <br>
@@ -44,19 +44,19 @@ Is the car ahead in my class <br>
 &nbsp;&nbsp;&nbsp;Is the car in front in my class <br>
 &nbsp;&nbsp;&nbsp;Is the car in front my class <br>
 &nbsp;&nbsp;&nbsp;Is the car in front the same class as me<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# responds yes or no<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>responds yes or no</i><br>
 Is the car behind in my class <br>
 &nbsp;&nbsp;&nbsp;Is the car behind my class <br>
 &nbsp;&nbsp;&nbsp;Is the car behind the same class as me<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# responds yes or no<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>responds yes or no</i><br>
 What class is the car ahead <br>
 &nbsp;&nbsp;&nbsp;What class is the guy ahead <br>
 &nbsp;&nbsp;&nbsp;What class is the car in front <br>
 &nbsp;&nbsp;&nbsp;What class is the guy in front<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports class name, or faster / slower if the app doesn't have the class name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports class name, or faster / slower if the app doesn't have the class name</i><br>
 What class is the car behind <br>
 &nbsp;&nbsp;&nbsp;What class is the guy behind<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports class name, or faster / slower if the app doesn't have the class name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports class name, or faster / slower if the app doesn't have the class name</i><br>
 <h4>Car status</h4>
 How's my:<br>
 &nbsp;&nbsp;&nbsp;fuel <br>
@@ -73,22 +73,22 @@ How are my:<br>
 &nbsp;&nbsp;&nbsp;brakes <br>
 &nbsp;&nbsp;&nbsp;brake temps  / temperatures <br>
 &nbsp;&nbsp;&nbsp;engine temps / temperatures <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# gives a good / bad type response<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>gives a good / bad type response</i><br>
 Damage report <br>
 &nbsp;&nbsp;&nbsp;How's my car <br>
 &nbsp;&nbsp;&nbsp;Is my car ok?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# report any damage the car has sustained<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>report any damage the car has sustained</i><br>
 Car status<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# report any damage the car has sustained, tyre and brake temperature status and fuel / battery status<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>report any damage the car has sustained, tyre and brake temperature status and fuel / battery status</i><br>
 Session status <br>
 &nbsp;&nbsp;&nbsp;Race status<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# report race position, gaps, time <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>report race position, gaps, time </i><br>
 &nbsp;&nbsp;&nbsp;laps left in session<br>
 Full update <br>
 &nbsp;&nbsp;&nbsp;Full status <br>
 &nbsp;&nbsp;&nbsp;Update me<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# combines all of the above three status reports <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# (will produce a very verbose response)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>combines all of the above three status reports </i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(will produce a very verbose response)</i><br>
 <h4>Brakes</h4>
 What are my brake temperatures / temps<br>
 How are my:<br>
@@ -99,7 +99,7 @@ What are my tyre temperatures / temps<br>
 What tyres am I on <br>
 &nbsp;&nbsp;&nbsp;What tyre am I on<br>
 &nbsp;&nbsp;&nbsp;What tyre type am I on <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports the tyre name you're currently using, if available<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports the tyre name you're currently using, if available</i><br>
 How are my:<br>
 &nbsp;&nbsp;&nbsp;tyre temps&nbsp;&nbsp;&nbsp;/ temperatures <br>
 <h4>Fuel</h4>
@@ -107,14 +107,14 @@ How's my fuel<br>
 What's my fuel usage <br>
 &nbsp;&nbsp;&nbsp;What's my fuel consumption <br>
 &nbsp;&nbsp;&nbsp;What's my fuel use <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports the per-lap or per-minute average fuel consumption<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports the per-lap or per-minute average fuel consumption</i><br>
 Calculate fuel for X minutes / laps <br>
 &nbsp;&nbsp;&nbsp;How much fuel do I need for X minutes / laps<br>
 &nbsp;&nbsp;&nbsp;How much fuel for X minutes / laps<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# estimates how much fuel you'll probably need for this many minutes or laps<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>estimates how much fuel you'll probably need for this many minutes or laps</i><br>
 How much fuel to the end <br>
 &nbsp;&nbsp;&nbsp;How much fuel do we need<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# report how many litres or gallons of fuel the app thinks you'll need to finish the race<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>report how many litres or gallons of fuel the app thinks you'll need to finish the race</i><br>
 <h4>Pitstops</h4>
 Do I still have a penalty <br>
 &nbsp;&nbsp;&nbsp;Do I have a penalty <br>
@@ -129,17 +129,17 @@ Time this stop <br>
 &nbsp;&nbsp;&nbsp;Practice pitstop <br>
 &nbsp;&nbsp;&nbsp;Time this pitstop <br>
 &nbsp;&nbsp;&nbsp;Pitstop benchmark<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# time the next pitstop (sector 3 + sector 1 time) to work out home much <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# time overall a pitstop costs - practice session only<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>time the next pitstop (sector 3 + sector 1 time) to work out home much </i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>time overall a pitstop costs - practice session only</i><br>
 Where will I be after a stop? <br>
 &nbsp;&nbsp;&nbsp;Estimate pit exit positions <br>
 &nbsp;&nbsp;&nbsp;What will happen if I pit?<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# play estimate of traffic and race positions on pit exit, if you were to pit on this lap<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>play estimate of traffic and race positions on pit exit, if you were to pit on this lap</i><br>
 <h4>Other drivers</h4>
 What's the fastest lap<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports the fastest lap in the session for the player's car class<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports the fastest lap in the session for the player's car class</i><br>
 Who's leading <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# this one only works if you have the driver name recording for the lead car<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>this one only works if you have the driver name recording for the lead car</i><br>
 Who's <br>
 &nbsp;&nbsp;&nbsp;ahead <br>
 &nbsp;&nbsp;&nbsp;ahead in the race <br>
@@ -147,20 +147,20 @@ Who's <br>
 &nbsp;&nbsp;&nbsp;in front in the race <br>
 &nbsp;&nbsp;&nbsp;behind <br>
 &nbsp;&nbsp;&nbsp;behind in the race<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# gives the name of the car in front / behind in the race or on the timing sheet for qual / practice. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# This one only works if you have the driver name recording for that driver<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>gives the name of the car in front / behind in the race or on the timing sheet for qual / practice. </i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>This one only works if you have the driver name recording for that driver</i><br>
 Who's <br>
 &nbsp;&nbsp;&nbsp;ahead on track <br>
 &nbsp;&nbsp;&nbsp;in front on track <br>
 &nbsp;&nbsp;&nbsp;behind on track<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# gives the name of the car in front / behind in on track, regardless of his race / qual position.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# This one only works if you have the driver name recording for that driver)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>gives the name of the car in front / behind in on track, regardless of his race / qual position.</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>This one only works if you have the driver name recording for that driver)</i><br>
 <br>
 Where's [opponent driver last name]<br>
 What's [opponent driver last name]'s last lap<br>
 What's [opponent driver last name]'s best lap<br>
 What's [opponent race position]'s last lap<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# for example, what's p 4's best lap, or what's position 4's last lap <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>for example, what's p 4's best lap, or what's position 4's last lap </i><br>
 What's [opponent race position]'s best lap<br>
 What's <br>
 &nbsp;&nbsp;&nbsp;the car in front <br>
@@ -184,54 +184,54 @@ What tyre(s) is [opponent race position] on<br>
 This is the formation lap <br>
 &nbsp;&nbsp;&nbsp;Formation lap <br>
 &nbsp;&nbsp;&nbsp;Rolling start<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Enable manual rolling-start mode (used by some online leagues)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Enable manual rolling-start mode (used by some online leagues)</i><br>
 Standing start <br>
 &nbsp;&nbsp;&nbsp;No formation lap<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Disable manual rolling-start mode<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Disable manual rolling-start mode</i><br>
 <h4>Verbosity</h4>
 Spot <br>
 Don't spot<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# switches the spotter on and off - note even in leave me alone mode the spotter<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# still operates unless you explicitly switch it off<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>switches the spotter on and off - note even in leave me alone mode the spotter</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>still operates unless you explicitly switch it off</i><br>
 Keep quiet <br>
 &nbsp;&nbsp;&nbsp;I know what I'm doing <br>
 &nbsp;&nbsp;&nbsp;Leave me alone<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# switches off messages<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>switches off messages</i><br>
 Keep me informed <br>
 &nbsp;&nbsp;&nbsp;Keep me posted <br>
 &nbsp;&nbsp;&nbsp;Keep me updated<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# switches messages back on<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>switches messages back on</i><br>
 Repeat last message <br>
 &nbsp;&nbsp;&nbsp;Say again<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# replays the last message<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>replays the last message</i><br>
 Read corner names <br>
 &nbsp;&nbsp;&nbsp;Corner names <br>
 &nbsp;&nbsp;&nbsp;Tell me the corner names<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# read out each corner name when you hit the mid-point of the corner, <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# for this lap only (useful to test corner name mappings)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>read out each corner name when you hit the mid-point of the corner, </i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>for this lap only (useful to test corner name mappings)</i><br>
 Don't talk in the [corners / braking zones]<br>
 &nbsp;&nbsp;&nbsp;No messages in the corners / braking zones<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# delay non-critical messages if the player is in a challenging section of the track<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>delay non-critical messages if the player is in a challenging section of the track</i><br>
 Talk to me anywhere <br>
 &nbsp;&nbsp;&nbsp;Messages at any point<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# disable message delay in challenging parts of the track<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>disable message delay in challenging parts of the track</i><br>
 <h4>Time of day</h4>
 What time is it <br>
 &nbsp;&nbsp;&nbsp;What's the time <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# reports current real-world time<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>reports current real-world time</i><br>
 Set alarm to [hour] [minutes] [optional am/pm]<br>
 &nbsp;&nbsp;&nbsp;Alarm me at [hour] [minutes] [optional am/pm]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# sets the alarm clock at the given time, supports both 12 and 24 hour format and multiple alarms<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>sets the alarm clock at the given time, supports both 12 and 24 hour format and multiple alarms</i><br>
 Clear alarm clock <br>
 &nbsp;&nbsp;&nbsp;Clear alarms<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears all the alarms set<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears all the alarms set</i><br>
 <h2>Raceroom</h2>
 Give me tyre pace differences <br>
 &nbsp;&nbsp;&nbsp;What are the tyre speeds <br>
 &nbsp;&nbsp;&nbsp;Whats the difference between tyres <br>
 &nbsp;&nbsp;&nbsp;Compare tyre compounds <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Gives lap time deltas for the best lap on each tyre type that's been used during the session,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# across all drivers in the same car class as the player<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Gives lap time deltas for the best lap on each tyre type that's been used during the session,</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>across all drivers in the same car class as the player</i><br>
 <h2>iRacing</h2>
 What's [opponent driver last name]'s irating<br>
 What's [opponent driver last name]'s license class<br>
@@ -257,48 +257,48 @@ How many incidents do I have <br>
 What's the incident limit<br>
 <br>
 Pitstop add [X liters] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# adds X amount of fuel next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>adds X amount of fuel next pitstop</i><br>
 Pitstop tearoff <br>
 &nbsp;&nbsp;&nbsp;Pitstop windscreen <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# enable next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>enable next pitstop</i><br>
 Pitstop fast repair <br>
 &nbsp;&nbsp;&nbsp;Pitstop repair <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# enable fast repair next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>enable fast repair next pitstop</i><br>
 Pitstop clear all <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears all selected pitstop options<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears all selected pitstop options</i><br>
 Pitstop clear tyres <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears all tyre selections next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears all tyre selections next pitstop</i><br>
 Pitstop clear tearoff <br>
 &nbsp;&nbsp;&nbsp;Pitstop clear windscreen <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears tearoff selection next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears tearoff selection next pitstop</i><br>
 Pitstop clear fast repair <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears fast repair selection next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears fast repair selection next pitstop</i><br>
 Pitstop clear fuel <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# clears fuel refueling next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>clears fuel refueling next pitstop</i><br>
 Pitstop change all tyres <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change all tyres next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change all tyres next pitstop</i><br>
 Pitstop change left front tyre <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change left front tyre next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change left front tyre next pitstop</i><br>
 Pitstop change right front tyre <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right front tyre next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right front tyre next pitstop</i><br>
 Pitstop change left rear tyre <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change left rear tyre next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change left rear tyre next pitstop</i><br>
 Pitstop change right rear tyre <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right rear tyre next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right rear tyre next pitstop</i><br>
 Pitstop change left side tyres<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change left side tyres next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change left side tyres next pitstop</i><br>
 Pitstop change right side tyres<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right side tyres next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right side tyres next pitstop</i><br>
 Pitstop change tyres pressure [new value] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right rear tyre pressure next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right rear tyre pressure next pitstop</i><br>
 Pitstop change left front tyre pressure [new value] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change left front tyre next pressure pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change left front tyre next pressure pitstop</i><br>
 Pitstop change right front tyre pressure [new value] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right front tyre pressure next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right front tyre pressure next pitstop</i><br>
 Pitstop change left rear tyre pressure [new value] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change left rear tyre pressure next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change left rear tyre pressure next pitstop</i><br>
 Pitstop change right rear tyre pressure [new value] <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# change right rear tyre pressure next pitstop<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>change right rear tyre pressure next pitstop</i><br>
 Pitstop fuel to the end <br>
 &nbsp;&nbsp;&nbsp;Pitstop fuel to the end of the race <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# add the fuel amount the app calculates you'll need to finish the race
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add the fuel amount the app calculates you'll need to finish the race
